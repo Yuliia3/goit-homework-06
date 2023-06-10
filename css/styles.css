@@ -94,6 +94,23 @@ display: flex;
 
 margin-bottom: 16px;
 }
+.footer-form {
+ gap: 24px;
+ margin-left: auto;
+ 
+}
+.input-footer {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #FFFFFF;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+padding-left: 16px;
+cursor: pointer;
+background-color: var(--image-backround);
+color: var(--header-backround);
+transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .logo-link {
   font-family: "Raleway", sans-serif;
 
@@ -110,6 +127,16 @@ margin-bottom: 16px;
 
   align-items: center;
  margin-right: 76px;
+}
+.footer-subscribe-form {
+width: 165px;
+height: 40px;
+background: #4D5AE5;
+border-radius: 4px;
+color: #FFFFFF;
+letter-spacing: 0.04em;
+
+margin-left: 24px;
 }
 .logo-link:hover {
   color: var(--pressed-state);
@@ -561,7 +588,38 @@ padding-bottom: 120px;
 .footer-soc-icon {
   fill: var(--light-backround);
 }
+.footer-subscribe {
+  display: flex;
+}
 
+
+.paragraph-form {
+  margin-bottom: 16px;
+  font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+
+
+letter-spacing: 0.02em;
+
+
+
+color: #FFFFFF;
+}
+.user-name-footer::placeholder {
+  font-weight: 400;
+font-size: 12px;
+line-height: 24px;
+
+
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+
+
+
+color: #FFFFFF;
+}
 .logo-link-footer {
   font-family: "Raleway", sans-serif;
 
@@ -775,6 +833,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal {
   position: absolute;
+padding: 24px;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
@@ -833,3 +892,127 @@ color: #ffffff
 .modal-close:focus .modal-icon {
 fill: #FFFFFF;
 }
+.modal-title {
+
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+padding-top: 48px;
+margin-bottom: 16px;
+}
+.input-modal {
+  width: 100%;
+  height: 40px;
+ outline: transparent;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+border-radius: 4px;
+padding-left: 38px;
+
+}
+.input-modal:focus {
+  
+}
+.input-modal + .icon-modal {
+
+
+}
+.input-lable {
+  font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.04em;
+
+color: var(--subtle-text);
+}
+.input-label span {
+  display: block;
+  margin-bottom: 5px;
+
+}
+.icon-modal {
+  position: absolute;
+top: 50%;
+left: 16px;
+transform: translateY(-50%);
+display: block;
+transition:  fiil 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.input-wrap {
+position: relative;
+margin-bottom: 8px;
+}
+
+
+.button-submit {
+ display: block;
+ justify-content: center;
+ align-items: center;
+ border: none;
+ width: 169px;
+ height: 56px;
+ background: var(--pimary-brand);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+margin-top: 24px;
+margin-bottom: 24px;
+
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+cursor: pointer;
+
+}
+.input-name::placeholder {
+  font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: rgba(46, 47, 66, 0.4);
+letter-spacing: 0.04em;
+
+}
+ .texterea-modal {
+  width: 100%;
+  height: 120px;
+  outline: transparent;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+border-radius: 4px;
+padding-left: 16px;
+resize: none;
+ }
+
+ .modal-form-check {
+  display: flex;
+align-items: center;
+  font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: #8E8F99;
+letter-spacing: 0.04em;
+margin-top: 16px;
+ }
+
+ .modal-form-check span {
+  
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+border-radius: 2px;
+display: flex;
+align-items: center;
+justify-content: center;
+fill: transparent;
+ }
+ .modal-check:checked +  {
+
+ }
