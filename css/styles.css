@@ -111,7 +111,8 @@ margin-bottom: 16px;
 top: 50%;
 right: 0;
 transform: translateY(-50%);
-margin-right: 16px;
+margin-left:  16px;
+
 }
 .input-footer {
   width: 264px;
@@ -622,7 +623,7 @@ padding-bottom: 120px;
 
 
 .paragraph-form {
-  margin-bottom: 16px;
+ 
   font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -932,6 +933,10 @@ fill: #FFFFFF;
 }
 .modal-field {
   margin-bottom: 24px;
+}
+.modal-field-person {
+ 
+  margin-bottom: 8px;
 }
 .input-modal {
   width: 100%;
