@@ -102,14 +102,16 @@ margin-bottom: 16px;
 }
 
 .form-subscribe {
+  position: relative;
   margin-left: auto;
   gap: 24xp;
 }
 .footer-icon-email {
   position: absolute;
-  margin-left: 16px;
-
-
+top: 50%;
+right: 0;
+transform: translateY(-50%);
+margin-right: 16px;
 }
 .input-footer {
   width: 264px;
@@ -161,7 +163,7 @@ font-weight: 500;
 line-height: 1.5;
 cursor: pointer;
 border: none;
-
+padding-right: 24px;
 }
 .logo-link:hover {
   color: var(--pressed-state);
@@ -973,6 +975,7 @@ left: 16px;
 transform: translateY(-50%);
 display: block;
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 
