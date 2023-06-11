@@ -610,7 +610,7 @@
      <form class="form-modal">
 
      
-      <div class="modal-field-person">
+      <div class="modal-field">
 
         <label for="user-name" class="input-label">Name</label>
        
@@ -672,7 +672,7 @@
           <textarea
            name="user-comment"
             id="user-comment"
-             class="texterea-modal"
+             class="texterea-modal input-modal"
           
           placeholder="Text input"
         ></textarea>
@@ -684,10 +684,15 @@
          value="true" 
          id="user-privacy"
          name="user-privacy"
-           class="modal-check visually-hidden">
-        <label  for="user-privacy" class="modal-form-check"> <span class="title-privacy"> 
+           class="modal-check visualy-hidden "
+           required />
+        <label  for="user-privacy" class="modal-form-check"> 
+         <span class="title-privacy"> 
+          <svg class="icon-check" width="8" height="10">
+            <use href="./images/symbol-defs-.svg#icon-access"></use>
+          </svg>
            </span>I accept the terms and conditions of the 
-        <a href=" " class="modal-link"> Privacy Policy</a> 
+        <a href=" " class="modal-link">   Privacy Policy </a> 
         </label>
       </div>
           
